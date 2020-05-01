@@ -1,6 +1,6 @@
     module.exports = {
     port: 80,
-    title: '龙果博客 - 领课教育',
+    title: '领课教育系统-开源版',
     themeConfig: {
         head: [
             ['link', { rel: 'icon', href: '/favicon.ico' }]

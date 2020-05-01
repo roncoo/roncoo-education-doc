@@ -1,10 +1,10 @@
 {
   "name": "roncoo-education-doc",
-  "version": "1.0.0",
-  "description": "龙果博客 - 领课教育开源系统文档",
+  "version": "7.0.0",
+  "description": "领课教育开源系统文档",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "author": "roncoo"
+  "author": "fengyw"
 }
