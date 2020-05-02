@@ -12,5 +12,5 @@ features:
   details: 前后端分离架构，前端基于Vue，后端基于Spring Cloud
 - title: 特别说明
   details: 系统有更强大的商业版，支持多种合作模式，欢迎来撩
-footer: 广州市领课网络科技有限公司 | 粤ICP备16009964号
+footer: 粤ICP备19077239号
 ---
