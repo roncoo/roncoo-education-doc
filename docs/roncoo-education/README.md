@@ -77,7 +77,7 @@ npm install
 ```
 2. 应用打包
 ```
-npm build
+npm run build
 ```
 3. 应用上传
 > 打包完成，直接上传dist目录即可
@@ -114,7 +114,7 @@ npm install
 ```
 4. 应用编译
 ```
-npm build
+npm run build
 ```
 5. 应用运行
 ```
