@@ -1,5 +1,5 @@
 # 官方文档
-&emsp;&emsp;领课教育（roncoo-education）是基于领课网络多年的在线教育平台开发和运营经验打造出来的产品，致力于打造一个全行业都适用的分布式在线教育系统。
+&emsp;&emsp;领课教育系统（roncoo-education）是基于领课网络多年的在线教育平台开发和运营经验打造出来的产品，致力于打造一个全行业都适用的分布式在线教育系统。
 > 该文档只适用于开源版本
 * 商业版请联系QQ: 513781560
 
@@ -126,6 +126,13 @@ PORT=10000 pm2 start npm --name roncoo-education-web -- run dev
 # 特别提醒：可以使用nginx进行反向代理
 ```
 ## 常见问题
+### 软件使用版本说明
+* JDK：1.8.x 
+* Nodejs：10.x 
+* Maven：3.5.x 
+* MySQL：5.7 
+* Elasticsearch：6.2.2 
+* Redis：3.2 
 ### 数据库如何加密
 > 利用DruidUtil加密，该类在com.roncoo.education.user.service.test包下，也可以参考[【官方文档】](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#21-%E6%88%91%E5%B8%8C%E6%9C%9B%E5%8A%A0%E5%AF%86%E6%88%91%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%86%E7%A0%81%E6%80%8E%E4%B9%88%E5%8A%9E)
 ### 课程如何添加

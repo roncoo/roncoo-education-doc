@@ -1,6 +1,6 @@
     module.exports = {
     port: 80,
-    title: '领课教育系统-开源版',
+    title: '领课教育系统',
     themeConfig: {
         head: [
             ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -11,6 +11,7 @@
             { text: 'GitHub', link: 'https://github.com/roncoo/roncoo-education'},
             { text: 'Gitee', link: 'https://gitee.com/roncoocom/roncoo-education'}
         ],
-        sidebar: 'auto'
+        sidebar: 'auto',
+		lastUpdated: '上次更新'
     }
 }
