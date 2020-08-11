@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: 开源版
-tagline: 官方文档
-actionText: 领课网络
-actionLink: https://www.roncoo.net/
+heroText: 开源版-官网文档
+tagline: 致力于打造一个各行业都适用的在线教育平台
+actionText: 领课教育系统（官网）
+actionLink: https://edu.roncoo.net/
 features:
 - title: 100%开源
   details: 保证代码100%开源，没任何闭源的包，MIT协议商用无忧
