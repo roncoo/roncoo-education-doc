@@ -6,7 +6,8 @@
             ['link', { rel: 'icon', href: '/favicon.ico' }]
         ],
         nav: [
-            { text: '开发指南', link: '/roncoo-education/'},
+            { text: '开发指南（Alibaba）', link: '/alibaba/'},
+            { text: '开发指南（Netflix）', link: '/roncoo-education/'},
             { text: '开源版', link: 'http://edu.os.roncoo.com/'},
             { text: '商业版', link: 'https://demo.edu.roncoos.com/'},
             { text: 'GitHub', link: 'https://github.com/roncoo/roncoo-education'},
