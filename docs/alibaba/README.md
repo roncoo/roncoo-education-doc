@@ -4,7 +4,7 @@
 * 商业版可联系: 15820530994（微信同号）
 
 ## 快速入门
-### 项目导入说明
+### 项目工程说明
 系统部署分3个工程，每个单独导入
 
 领课教育系统(roncoo-education)：[码云地址](https://gitee.com/roncoocom/roncoo-education) | [Github地址](https://github.com/roncoo/roncoo-education)
@@ -14,31 +14,40 @@
 后台管理工程(roncoo-education-admin)：[码云地址](https://gitee.com/roncoocom/roncoo-education-admin) | [Github地址](https://github.com/roncoo/roncoo-education-admin)
 
 ### 获取SQL脚本
-为了方便维护数据库脚本，只在QQ群进行集中管理。所以需要加官方QQ群，[【请看这里的文档】](https://gitee.com/roncoocom/roncoo-education)
+为了方便维护，数据库SQL脚本目前只在QQ的群文件里面共享。[【加QQ群，免费获取SQL脚本】](https://gitee.com/roncoocom/roncoo-education#%E5%AE%98%E6%96%B9qq%E7%BE%A4%E5%8A%A0%E7%BE%A4%E5%85%8D%E8%B4%B9%E8%8E%B7%E5%8F%96sql%E8%84%9A%E6%9C%AC)
+
 ### 系统账号说明
 #### 前端门户
 * 普通用户: 13800138002 密码：123456
 * 讲师用户: 13800138001 密码：123qwe
-> 这里的账号密码，需要本地运行。演示环境，需要龙果学院的账号授权登录
-
-* [门户演示环境](http://edu.os.roncoo.com/)
-* [后台演示环境](http://edu.os.roncoo.com/admin/)
 
 #### 管理后台
 * 演示账号：13800000000 密码：123456 (演示环境提供的演示账号)
 * 管理账号：18800000000 密码：123456 (演示环境不提供需本地运行)
 
+#### 演示环境
+* [门户演示环境（需要龙果学院账号授权登录）](http://edu.os.roncoo.com/)
+* [后台演示环境（默认演示账号登录）](http://edu.os.roncoo.com/admin/)
+
 ## 常见问题
 ### 软件版本说明
-| JDK:1.8.x | Nodejs:10.x | Maven:3.5.x |MySQL:5.7 | Elasticsearch:6.2.2 | Redis:3.2 |
+| 软件 | 版本 | 安装文档 |
 |-|-|-|-|-|-|
-### 服务器配置说明
-| 服务器：2核，6GB | MySQL：512MB | Elasticsearch：512MB | 其他：5GB |
-|-|-|-|-|
+| JDK | 1.8.x | [JDK安装文档](https://blog.roncoo.com/article/1380765558820368385)  |
+|Nodejs | 12.x | [Nodejs安装文档](https://blog.roncoo.com/article/1380765558820368385) |
+|MySQL | 5.7.x | [MySQL安装文档](https://blog.roncoo.com/article/1280781211745636354) |
+|Elasticsearch | 6.2.2 | [Elasticsearch安装文档](https://blog.roncoo.com/article/1281405654742323202) |
+|Redis | 3.2+ | [Redis安装文档](https://blog.roncoo.com/article/1281402533735550977) |
+|FastDFS | 6.06 | [FastDFS安装文档](https://blog.roncoo.com/article/1275251133292867586) |
 
-### 数据库如何加密
+### 服务器配置说明
+| 硬件 | 配置 | 说明 |
+|-|-|-|-|
+| 最小配置 | 1核，6GB | MySQL分配：512MB， Elasticsearch分配：512MB |
+
+### 数据库如何加密？
 > 利用DruidUtil加密，该类在com.roncoo.education.user.service.test包下，也可以参考[【官方文档】](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98#21-%E6%88%91%E5%B8%8C%E6%9C%9B%E5%8A%A0%E5%AF%86%E6%88%91%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%86%E7%A0%81%E6%80%8E%E4%B9%88%E5%8A%9E)
-### 课程是如何添加
+### 课程在哪里添加？
 > 系统存在用户、讲师，管理员角色，课程属于讲师，所以课程的添加在用户中心（前端门户系统），管理员只做课程的审核工作，只有通过审核的课程才能上架。
 
 ## 核心功能
@@ -59,7 +68,7 @@
 ### 后台接口(roncoo-education)
 该工程采用spring-cloud分布式架构，需要按一定的顺序进行启动。
 1. 启动应用 
-> 启动顺序为：注册中心 → 配置中心→ 模块工程 → 定时器 → 网关工程
+> 启动顺序为：Nacos → 模块工程 → 定时器 → 网关工程
 2. 安装注册中心 
 * Nacos需要单独下载：[推荐使用：nacos-server-1.3.2](https://github.com/alibaba/nacos/releases/download/1.3.2/nacos-server-1.3.2.zip)
 3. 导入配置
