@@ -55,13 +55,10 @@
 1. 课程添加功能：由讲师进行添加，功能在用户中心（roncoo-education-web）
 2. 课程审核功能：由管理员审核，功能在运营后台（roncoo-education-admin）
 ### 课程播放流程
-![课程播放流程](/static/kechengbofang.png)
-### 播放鉴权流程 
-![播放鉴权流程 ](/static/bofangjianquan.png)
-### 课程下单流程 
-![课程下单流程 ](/static/kechengxiadan.png)
-### 下单回调流程
-![下单回调流程](/static/xiadanhuitiao.png)
+<img :src="$withBase('/static/kechengbofang.png')" alt="课程播放流程">
+<img :src="$withBase('/static/bofangjianquan.png')" alt="播放鉴权流程 ">
+<img :src="$withBase('/static/kechengxiadan.png')" alt="课程下单流程 ">
+<img :src="$withBase('/static/xiadanhuitiao.png')" alt="下单回调流程">
 
 ## 本地开发
 系统部署分3个工程，每个单独启动
