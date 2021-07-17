@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/opensource/",
+    base: "/doc/",
     port: 80,
     title: '领课教育系统(开源版)-官方文档',
     themeConfig: {
