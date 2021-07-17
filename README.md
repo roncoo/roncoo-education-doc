@@ -37,7 +37,8 @@
 ### 演示地址
 * [前端演示地址：https://eduos.roncoo.net/](https://eduos.roncoo.net/) 
 * [后台演示地址：https://eduos.roncoo.net/admin](https://eduos.roncoo.net/admin) 
-* [系统帮助文档：https://eduos.roncoo.net/doc](https://eduos.roncoo.net/doc) 可从这里免费获取MySQL脚本
+* [系统帮助文档：https://eduos.roncoo.net/doc](https://eduos.roncoo.net/doc) 
+* [获取MySQL脚本：https://edu.roncoo.net/open](https://edu.roncoo.net/open) 
 
 ### 官方QQ群
 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=BpOlarqoFOUReMfHsinOBDrFJhVln6LO&jump_from=webapi"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="在线教育系统-领课⑪" title="在线教育系统-领课⑪"> 624670981</a> 可加
