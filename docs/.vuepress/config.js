@@ -2,9 +2,10 @@ module.exports = {
     base: "/doc/",
     port: 80,
     title: '领课教育系统(开源版)-官方文档',
+    description: '领课教育系统，致力于打造一个各行业都适用的在线教育平台',
     themeConfig: {
         head: [
-            ['link', {rel: 'icon', href: '/favicon.ico'}]
+            ['link', {rel: 'icon', href: 'favicon.ico'}]
         ],
         nav: [
             {
