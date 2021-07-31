@@ -69,7 +69,7 @@
 2. 安装注册中心 
 * Nacos需要单独下载：[推荐使用：nacos-server-1.3.2](https://github.com/alibaba/nacos/releases/download/1.3.2/nacos-server-1.3.2.zip)
 3. 导入配置
-* [nacos_configs.zip](https://gitee.com/roncoocom/roncoo-education/blob/master/nacos_configs.zip)，导入之后按需修改即可。
+* [nacos_config.zip](https://gitee.com/roncoocom/roncoo-education/blob/master/nacos_config.zip)，导入之后按需修改即可。
 ### 运营系统(roncoo-education-admin)
 该工程基于vue-element-admin
 1. 本地启动
