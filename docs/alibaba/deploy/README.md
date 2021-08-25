@@ -8,7 +8,7 @@
 |Elasticsearch | 6.2.2 | [Elasticsearch安装文档](https://blog.roncoo.com/article/1281405654742323202) |
 |Redis | 3.2+ | [Redis安装文档](https://blog.roncoo.com/article/1281402533735550977) |
 |FastDFS | 6.06 | [FastDFS安装文档](https://blog.roncoo.com/article/1275251133292867586) |
-|Nacos | 1.3.2 | [Nacos安装文档](https://blog.roncoo.com/article/1275251133292867586) |
+|Nacos | 1.3.2 | [Nacos安装文档](https://blog.roncoo.com/article/1430414119324229633) |
 
 ## 注册配置中心
 ### 1. 登录Nacos管理后台
