@@ -17,7 +17,7 @@ module.exports = {
             },
             {text: 'Netflix分支', link: '/netflix/'},
             {text: '开源版', link: 'http://edu.os.roncoo.com/'},
-            {text: '商业版', link: 'https://demo.edu.roncoo.net/'},
+            {text: '商业版', link: 'https://demo-edu.roncoo.net/'},
             {text: 'GitHub', link: 'https://github.com/roncoo/roncoo-education'},
             {text: 'Gitee', link: 'https://gitee.com/roncoocom/roncoo-education'}
         ],
