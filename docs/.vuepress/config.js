@@ -9,15 +9,15 @@ module.exports = {
         ],
         nav: [
             {
-                text: 'Alibaba分支',
+                text: '系统指南',
                 items: [
-                    {text: '开发指南', link: '/alibaba/guide/'},
-                    {text: '部署文档', link: '/alibaba/deploy/'}
+                    {text: '本地开发', link: '/guide/dev/'},
+                    {text: '生产部署', link: '/guide/deploy/'},
                 ]
             },
-            {text: 'Netflix分支', link: '/netflix/'},
+            {text: '常见问题', link: '/faq/'},
             {text: '开源版', link: 'http://eduos.roncoo.net/'},
-            {text: '商业版', link: 'https://demo-edu.roncoo.net/'},
+            {text: '商业版', link: 'https://edu.roncoo.net/'},
             {text: 'GitHub', link: 'https://github.com/roncoo/roncoo-education'},
             {text: 'Gitee', link: 'https://gitee.com/roncoocom/roncoo-education'}
         ],
